@@ -5,8 +5,7 @@ a = int(input("сколько фильмов хотите добавить: "))
 
 for i in range(a):
     movie_name = input("введите название фильма ").title()
-    rule = films.index(movie_name)
-    if rule != 0:
+    if movie_name in films:
         myplaylist.append((movie_name))
     else:
         print("Фильма",movie_name, "нет :(")
