@@ -15,10 +15,10 @@ sklad.sort()
 # здесь лучше сделай условия для проверки добавленного контейнера. Есть он или нет в списке. а дальше и распиши. если есть то....
 # если нету то тото.......
 
-if sklad.count(new_konteiner) != 0:
+if sklad.count(new_konteiner) == 0:
     sklad.append(new_konteiner)
 else:
-    sklad.insert(sklad.count(new_konteiner)+ 1,new_konteiner)
+    sklad.insert(sklad.count(new_konteiner) ,new_konteiner)
 print(sklad.index(new_konteiner))
 #вот смотри я так уже делал тоесть он вообще индекс не меняет даже если там число писатья хз
 # если это правильно то просто напиши
