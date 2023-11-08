@@ -9,6 +9,7 @@ for i in range (sklad_long):
     else:
         print("превышен лимит по массе контейнера ")
 new_konteiner = int(input("вес нового контейнера:"))    # это зачем?
+# там по заданию надо новый контейнер привозят
 
 sklad.sort()
 
@@ -18,9 +19,7 @@ sklad.sort()
 if sklad.count(new_konteiner) == 0:
     sklad.append(new_konteiner)
 else:
-    sklad.insert(sklad.count(new_konteiner) ,new_konteiner)
+    sklad.insert(sklad.count(new_konteiner), new_konteiner)
 print(sklad.index(new_konteiner))
 #вот смотри я так уже делал тоесть он вообще индекс не меняет даже если там число писатья хз
 # если это правильно то просто напиши
-
-
