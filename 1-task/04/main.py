@@ -8,7 +8,14 @@ for i in range (sklad_long):
         sklad.append(konteiner_weight)
     else:
         print("превышен лимит по массе контейнера ")
-new_konteiner = int(input("вес нового контейнера:"))    # это зачем?
+new_konteiner = int(input("вес нового контейнера:"))
+c = 0
+for a in range(c, sklad.count(new_konteiner)):
+    kon_num = sklad.index(new_konteiner)
+    c += kon_num
+
+print(kon_num)
+# это зачем?
 # там по заданию надо новый контейнер привозят
 # это новый контейнер всм зачем?
 # sklad.sort()
