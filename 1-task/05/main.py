@@ -1,5 +1,5 @@
 # Здесь пиши программу
-spicok_long = int(input("введите число видеокарт"))
+spicok_long = int(input("введите число видеокарт "))
 spicok_videokart = []
 for i in range(spicok_long):
     videokarta = int(input("Введите видеокарту: "))
