@@ -11,5 +11,5 @@ for i in range(len(spicok)):
             spicok[j],spicok[i]=spicok[i],spicok[j]
 print(spicok)
 # не верно. нужно список который дан. сравнивать первое число со вторым, потом второе с третим и т.д.
-
-# посмотри задачу 8. 
+#pdlfkgdf
+# посмотри задачу 8.
