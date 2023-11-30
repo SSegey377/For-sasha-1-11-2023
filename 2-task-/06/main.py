@@ -14,7 +14,10 @@ for c in range(cheloveki):
     razmer_foot = input()
     foot.append(razmer_foot)
     foot.sort()
-for a in range():
-    if icebot <= foot:
-        count_chelovekov += 1
+for a in range(cheloveki+konki):
+    for foot in icebot :
+        b = icebot[+1]
+        if b in foot:
+            count_chelovekov += 1
 print('наибольшее кол-во людей которые могут одеть коньки',count_chelovekov)
+print(icebot)
