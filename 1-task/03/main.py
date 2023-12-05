@@ -10,3 +10,6 @@ for i in range(a):
     else:
         print("Фильма",movie_name, "нет :(")
 print(myplaylist)
+
+
+# Если вводить не правильный фильмы. то список получается не полный.
