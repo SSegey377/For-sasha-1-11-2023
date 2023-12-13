@@ -10,12 +10,10 @@ for i in range (sklad_long):
         print("превышен лимит по массе контейнера ")
 new_konteiner = int(input("вес нового контейнера:"))
 
-
-
-
-
 sklad.append(new_konteiner)
 sklad.sort()
 print(sklad)
+# sklad.index(new_konteiner)+1
+print("Место нового контейнера: "(sklad.index(new_konteiner)) + int(sklad.count(new_konteiner)))
 
 # осталось найти на каком месте стоит новый нонтейнер
